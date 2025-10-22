@@ -1,0 +1,152 @@
+{
+	"info": {
+		"_postman_id": "98eae1b1-dad5-4a4c-8dbf-5339a6f2dc4c",
+		"name": "CALORIE COUNTER",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "46944597",
+		"_collection_link": "https://telecoms-administrator-82446008-2957368.postman.co/workspace/MARTIN-ALEJANDRO-GRANADOS-BELLO~137692b1-9ef0-4fcb-840f-2d010a35161a/collection/46944597-98eae1b1-dad5-4a4c-8dbf-5339a6f2dc4c?action=share&source=collection_link&creator=46944597"
+	},
+	"item": [
+		{
+			"name": "activities",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/api/activities",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"activities"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "activity",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"category\": \"comida\",\r\n    \"name\": \"pambazo de suadero\",\r\n    \"calories\": 200\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/api/activities",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"activities"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "activity",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/api/activities/68f95ed2a9829019f68d2a55",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"activities",
+						"68f95ed2a9829019f68d2a55"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "activity",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"category\": \"ejercicio\",\r\n    \"name\": \"curl martillo\",\r\n    \"calories\": 480\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/api/activities/68f95f49a9829019f68d2a56",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"activities",
+						"68f95f49a9829019f68d2a56"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "activity",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/api/activities/68f95ed2a9829019f68d2a55",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"activities",
+						"68f95ed2a9829019f68d2a55"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "activities",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/api/activities",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"activities"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
