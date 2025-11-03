@@ -13,12 +13,12 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:8081/api/activities",
+					"raw": "http://localhost:6000/api/activities",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
-					"port": "8081",
+					"port": "6000",
 					"path": [
 						"api",
 						"activities"
@@ -34,7 +34,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"category\": \"comida\",\r\n    \"name\": \"pambazo de suadero\",\r\n    \"calories\": 200\r\n}",
+					"raw": "{\r\n    \"category\": \"comida\",\r\n    \"name\": \"papas sol chipotle\",\r\n    \"calories\": 400\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -42,12 +42,12 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:8081/api/activities",
+					"raw": "http://localhost:6000/api/activities",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
-					"port": "8081",
+					"port": "6000",
 					"path": [
 						"api",
 						"activities"
@@ -62,16 +62,16 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:8081/api/activities/68f95ed2a9829019f68d2a55",
+					"raw": "http://localhost:6000/api/activities/690516227df21160a524784a",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
-					"port": "8081",
+					"port": "6000",
 					"path": [
 						"api",
 						"activities",
-						"68f95ed2a9829019f68d2a55"
+						"690516227df21160a524784a"
 					]
 				}
 			},
@@ -92,16 +92,16 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:8081/api/activities/68f95f49a9829019f68d2a56",
+					"raw": "http://localhost:6000/api/activities/690516227df21160a524784a",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
-					"port": "8081",
+					"port": "6000",
 					"path": [
 						"api",
 						"activities",
-						"68f95f49a9829019f68d2a56"
+						"690516227df21160a524784a"
 					]
 				}
 			},
@@ -113,16 +113,16 @@
 				"method": "DELETE",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:8081/api/activities/68f95ed2a9829019f68d2a55",
+					"raw": "http://localhost:6000/api/activities/690516377df21160a524784b",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
-					"port": "8081",
+					"port": "6000",
 					"path": [
 						"api",
 						"activities",
-						"68f95ed2a9829019f68d2a55"
+						"690516377df21160a524784b"
 					]
 				}
 			},
@@ -134,12 +134,12 @@
 				"method": "DELETE",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:8081/api/activities",
+					"raw": "http://localhost:6000/api/activities",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
-					"port": "8081",
+					"port": "6000",
 					"path": [
 						"api",
 						"activities"
