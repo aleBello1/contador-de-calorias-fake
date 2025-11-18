@@ -16,7 +16,7 @@ from amazoncorretto:17-alpine
 workdir /app
 copy --from=builder /app/target/contadorcalorias-0.0.1-SNAPSHOT.jar .
 
-expose 6000
+expose 7000
 
 entrypoint ["java", "-jar", "contadorcalorias-0.0.1-SNAPSHOT.jar"]
 

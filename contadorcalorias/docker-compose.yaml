@@ -3,7 +3,7 @@ services:
   calorie-counter:
     container_name: calorie-counter
     ports:
-      - "6000:6000"
+      - "7000:7000"
     networks:
       - calorie-network
     image: calorie-image

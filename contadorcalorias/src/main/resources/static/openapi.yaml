@@ -9,7 +9,7 @@ info:
     url: https://github.com/aledelorbe
 
 servers:
-  - url: http://localhost:8081
+  - url: http://localhost:7000
     description: Local server
 
 tags:
