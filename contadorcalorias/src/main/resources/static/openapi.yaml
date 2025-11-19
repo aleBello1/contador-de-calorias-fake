@@ -8,10 +8,6 @@ info:
     email: alejandro.magb@gmail.com
     url: https://github.com/aledelorbe
 
-servers:
-  - url: http://localhost:7000
-    description: Local server
-
 tags:
   - name: Activities
     description: Endpoints related to manage the activities
@@ -101,7 +97,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/Activity'
+                $ref: '#/components/schemas/ActivityInput'
         responses:
           '201':
             description: Activity updated successfully.
@@ -143,17 +139,21 @@ components:
         id:
           type: string
           description: Unique identifier of the activity.
+          example: "690516227df21160a524784a"
         category:
           type: string
           description: Activity category (e.g., cardio, strength, etc.).
+          example: "Food"
         name:
           type: string
           description: Name of the activity.
+          example: "Red Apple"
         calories:
           type: integer
           format: int32
           minimum: 1
           description: Calories burned by performing the activity.
+          example: 150
       required:
         - category
         - name
@@ -165,14 +165,17 @@ components:
         category:
           type: string
           description: Activity category (e.g., cardio, strength, etc.).
+          example: "Food"
         name:
           type: string
           description: Name of the activity.
+          example: "Red Apple"
         calories:
           type: integer
           format: int32
           minimum: 1
           description: Calories burned by performing the activity.
+          example: 150
       required:
         - category
         - name

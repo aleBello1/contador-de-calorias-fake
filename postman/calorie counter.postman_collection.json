@@ -13,12 +13,10 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:6000/api/activities",
-					"protocol": "http",
+					"raw": "{{LOCAL_DOCKER}}/api/activities",
 					"host": [
-						"localhost"
+						"{{LOCAL_DOCKER}}"
 					],
-					"port": "6000",
 					"path": [
 						"api",
 						"activities"
@@ -34,7 +32,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"category\": \"comida\",\r\n    \"name\": \"papas sol chipotle\",\r\n    \"calories\": 400\r\n}",
+					"raw": "{\r\n    \"category\": \"comida\",\r\n    \"name\": \"little caesars\",\r\n    \"calories\": 400\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -42,12 +40,10 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:6000/api/activities",
-					"protocol": "http",
+					"raw": "{{LOCAL_DOCKER}}/api/activities",
 					"host": [
-						"localhost"
+						"{{LOCAL_DOCKER}}"
 					],
-					"port": "6000",
 					"path": [
 						"api",
 						"activities"
@@ -57,17 +53,15 @@
 			"response": []
 		},
 		{
-			"name": "activity",
+			"name": "activitiy",
 			"request": {
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:6000/api/activities/690516227df21160a524784a",
-					"protocol": "http",
+					"raw": "{{LOCAL_DOCKER}}/api/activities/690516227df21160a524784a",
 					"host": [
-						"localhost"
+						"{{LOCAL_DOCKER}}"
 					],
-					"port": "6000",
 					"path": [
 						"api",
 						"activities",
@@ -92,12 +86,10 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:6000/api/activities/690516227df21160a524784a",
-					"protocol": "http",
+					"raw": "{{LOCAL_DOCKER}}/api/activities/690516227df21160a524784a",
 					"host": [
-						"localhost"
+						"{{LOCAL_DOCKER}}"
 					],
-					"port": "6000",
 					"path": [
 						"api",
 						"activities",
@@ -113,12 +105,10 @@
 				"method": "DELETE",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:6000/api/activities/690516377df21160a524784b",
-					"protocol": "http",
+					"raw": "{{LOCAL_DOCKER}}/api/activities/690516377df21160a524784b",
 					"host": [
-						"localhost"
+						"{{LOCAL_DOCKER}}"
 					],
-					"port": "6000",
 					"path": [
 						"api",
 						"activities",
@@ -134,12 +124,10 @@
 				"method": "DELETE",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:6000/api/activities",
-					"protocol": "http",
+					"raw": "{{LOCAL_DOCKER}}/api/activities",
 					"host": [
-						"localhost"
+						"{{LOCAL_DOCKER}}"
 					],
-					"port": "6000",
 					"path": [
 						"api",
 						"activities"
