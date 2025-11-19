@@ -17,7 +17,7 @@ services:
   calorie-counter-db:
     container_name: calorie-counter-db
     ports:
-      - "6001:27017"
+      - "7001:27017"
     networks:
       - calorie-network
     image:  mongodb/mongodb-community-server:7.0-ubi8
